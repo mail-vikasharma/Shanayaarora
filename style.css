@@ -186,3 +186,22 @@ footer {
         gap: 10px;
     }
 }
+
+.image-card {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.image-card > div {
+    flex: 1;
+}
+
+.image-card img {
+    width: 260px;
+    height: auto;
+    max-height: 260px;
+    object-fit: contain;
+    margin-left: 10px;
+    border-radius: 14px;
+}
