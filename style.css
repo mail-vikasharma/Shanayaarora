@@ -205,3 +205,22 @@ footer {
     margin-left: 10px;
     border-radius: 14px;
 }
+
+
+@media (max-width: 768px) {
+    .image-card {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .image-card img {
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    .image-card > div {
+        width: 100%;
+    }
+}
